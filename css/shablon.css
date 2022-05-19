@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
-.services__content1__text button, .header .header__text button {
+.services__content1__text button, .header__text button {
   padding: 1rem 2rem;
   border-radius: 50rem;
   font-size: 3rem;
   transition: 0.33s;
 }
-.services__content1__text button:hover, .header .header__text button:hover {
+.services__content1__text button:hover, .header__text button:hover {
   background-color: #8f95a5;
 }
 
@@ -69,11 +69,11 @@ section {
   font-size: 2.5rem;
 }
 .header__navbar i {
-  font-size: 3rem;
+  font-size: 4rem;
   color: #fff;
   display: none;
 }
-.header .header__text {
+.header__text {
   width: 100%;
   height: 90vh;
   display: flex;
@@ -82,21 +82,20 @@ section {
   flex-direction: column;
   color: #fff;
 }
-.header .header__text h3 {
+.header__text h3 {
   font-style: normal;
   font-weight: 400;
   font-size: 3rem;
-  line-height: 51px;
+  line-height: 4rem;
 }
-.header .header__text h1 {
+.header__text h1 {
   font-style: normal;
   font-weight: 600;
   font-size: 6rem;
   line-height: 7rem;
 }
-.header .header__text h2 {
-  font-style: normal;
-  font-weight: 300;
+.header__text h2 {
+  font-weight: 900;
   font-size: 4rem;
   line-height: 10rem;
 }
@@ -198,6 +197,16 @@ section {
 
   .header__navbar i {
     display: block;
+    font-size: 5rem;
+  }
+
+  .header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  .header h2 {
+    font-size: 3rem;
+    font-weight: bold;
   }
 
   .services__content1 {
