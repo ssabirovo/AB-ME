@@ -1,0 +1,58 @@
+@import "_basics";
+@import "_head";
+@import "_header";
+@import "_aboutUs";
+@import "_services";
+
+// media
+@media (max-width: 1200px) {
+  section {
+    padding: 3rem 5%;
+  }
+}
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  section {
+    padding: 3rem 2rem;
+  }
+}
+@media (max-width: 783px) {
+  .header__navbar__anchers,
+  .header__navbar #changeLang {
+    display: none;
+  }
+  .header__navbar i {
+    display: block;
+  }
+  .services__content1 {
+    flex-direction: column;
+    &__photo {
+      width: 100%;
+      height: 50vh;
+    }
+    &__text {
+      width: 100%;
+      padding: 5rem 4rem;
+      align-items: center;
+      p {
+        text-align: center;
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 40%;
+  }
+}
+@media (max-width: 320px) {
+  html {
+    font-size: 30%;
+  }
+}

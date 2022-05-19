@@ -1,0 +1,9 @@
+1 maketni kodga tushurish
+
+2 responsive holatida navbar ong tarafdan chiqsin (js) yordamida
+
+3 mata teglarga description qushish
+
+4 aHost ga joylashtirish
+
+5 seo videosini kurib (Google ads)

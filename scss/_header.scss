@@ -1,0 +1,69 @@
+.header {
+  z-index: -1;
+  // position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/header.jpeg);
+  background-position: center;
+  background-size: cover;
+  &__navbar {
+    @include d-flex(space-between);
+    text-decoration: none;
+    height: 5vh;
+    img {
+      width: 15rem;
+      height: auto;
+    }
+    &__anchers {
+      display: flex;
+      gap: 5rem;
+      a {
+        color: $white;
+        font-size: 2rem;
+      }
+    }
+    #changeLang {
+      width: 10rem;
+      height: auto;
+      display: flex;
+      justify-content: end;
+      color: $white;
+      font-size: 2.5rem;
+    }
+    i {
+      font-size: 3rem;
+      color: $white;
+      display: none;
+    }
+  }
+  .header__text {
+    width: 100%;
+    height: 90vh;
+    @include d-flex(center, flex-start, column);
+    color: $white;
+    h3 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 3rem;
+      line-height: 51px;
+    }
+    h1 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 6rem;
+      line-height: 7rem;
+    }
+    h2 {
+      font-style: normal;
+      font-weight: 300;
+      font-size: 4rem;
+      line-height: 10rem;
+    }
+    button {
+      @extend %main__btn;
+    }
+  }
+}

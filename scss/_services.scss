@@ -1,0 +1,46 @@
+.services {
+  width: 100%;
+  background: linear-gradient(
+    90.08deg,
+    #000000 2.77%,
+    #436271 56.09%,
+    #436271 111.81%
+  );
+  color: #fff;
+  &__content1 {
+    display: flex;
+
+    &__photo {
+      width: 50%;
+      height: 70vh;
+      background-image: url(../images/truba1.jpeg);
+      background-size: cover;
+      background-position: center;
+    }
+    &__text {
+      @include d-flex(center, start, column);
+      padding: 1rem 9rem;
+      width: 50%;
+      h1 {
+        font-size: 3rem;
+      }
+      p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 30px;
+        padding: 3rem 0;
+        color: rgba(255, 255, 255, 0.5);
+      }
+      button {
+        @extend %main__btn;
+      }
+    }
+  }
+  &__content2 {
+    flex-direction: row-reverse;
+    &__photo {
+      background-image: url(../images/truba2.jpeg);
+    }
+  }
+}
