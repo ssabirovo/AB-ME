@@ -227,7 +227,7 @@ section {
 }
 @media (max-width: 600px) {
   .header h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
   }
   .header h2 {
