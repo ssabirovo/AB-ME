@@ -232,6 +232,13 @@ section {
     font-size: 2rem;
     font-weight: bold;
   }
+
+  .aboutUs {
+    align-items: center;
+  }
+  .aboutUs__content {
+    width: 30rem;
+  }
 }
 @media (max-width: 450px) {
   html {

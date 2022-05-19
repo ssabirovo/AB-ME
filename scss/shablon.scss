@@ -65,6 +65,12 @@
       font-weight: bold;
     }
   }
+  .aboutUs {
+    align-items: center;
+    &__content {
+      width: 30rem;
+    }
+  }
 }
 
 @media (max-width: 450px) {
