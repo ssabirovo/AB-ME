@@ -148,7 +148,6 @@ section {
   background-image: url(../images/truba1.jpeg);
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
 }
 .services__content1__text {
   display: flex;

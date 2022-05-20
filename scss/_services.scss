@@ -17,8 +17,7 @@
       background-image: url(../images/truba1.jpeg);
       background-size: cover;
       background-position: center;
-      background-attachment: fixed;
-    }
+  }
     &__text {
       @include d-flex(center, start, column);
       padding: 1rem 9rem;
