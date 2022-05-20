@@ -60,13 +60,17 @@
 }
 @media (max-width: 600px) {
   .header {
-    h1 {
-      font-size: 3rem;
-      font-weight: bold;
-    }
-    h2 {
-      font-size: 2rem;
-      font-weight: bold;
+    &__text {
+      justify-content: center;
+      align-items: center;
+      h1 {
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      h2 {
+        font-size: 2rem;
+        font-weight: bold;
+      }
     }
   }
   .aboutUs {
