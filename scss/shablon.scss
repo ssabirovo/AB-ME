@@ -3,6 +3,8 @@
 @import "_header";
 @import "_aboutUs";
 @import "_services";
+@import "_location";
+@import "_footer";
 
 // media
 @media (max-width: 1200px) {
@@ -57,18 +59,30 @@
       }
     }
   }
+  .location {
+    &__content {
+      flex-direction: column;
+      &__text {
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
 }
 @media (max-width: 600px) {
+  html {
+    font-size: 40%;
+  }
   .header {
     &__text {
       justify-content: center;
       align-items: center;
       h1 {
-        font-size: 3rem;
+        font-size: 4rem;
         font-weight: bold;
       }
       h2 {
-        font-size: 2rem;
+        font-size: 3rem;
         font-weight: bold;
       }
     }
@@ -77,7 +91,7 @@
     height: 100vh;
     align-items: center;
     &__content {
-      width: 30rem;
+      width: 80%;
     }
   }
 }

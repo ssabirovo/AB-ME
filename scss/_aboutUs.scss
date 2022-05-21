@@ -1,8 +1,6 @@
 .aboutUs {
-  z-index: 2;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
-    url(../images/workers2.jpeg);
-  // background-attachment: fixed;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.915), rgba(0, 0, 0, 0.515)),
+    url(../images/carusel2.jpeg);
 
   width: 100%;
   height: 100vh;
@@ -24,13 +22,14 @@
     padding: 3rem 3rem;
     h1 {
       font-weight: 600;
-      font-size: 4rem;
+      font-size: 5rem;
       line-height: 9rem;
     }
     p {
       font-weight: 400;
-      font-size: 2rem;
+      font-size: 3rem;
       line-height: 3.5rem;
+      color: #fff ;
     }
   }
 }

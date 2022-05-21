@@ -1,4 +1,4 @@
-1 maketni kodga tushurish
+1 figmani kodga tushurish
 
 2 responsive holatida navbar ong tarafdan chiqsin (js) yordamida
 

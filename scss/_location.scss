@@ -1,0 +1,29 @@
+.location {
+  padding: 7rem;
+  h1 {
+    padding: 10rem 0;
+    width: 100%;
+    font-size: 3rem;
+    @include d-flex;
+  }
+  &__content {
+    @include d-flex;
+    &__text {
+      @include d-flex(space-between, start, column);
+      gap: 4rem;
+      font-size: 2rem;
+      padding: 3rem 0;
+      div {
+        @include d-flex(start);
+        gap: 3rem;
+      }
+      p {
+        width: 50%;
+      }
+    }
+  }
+}
+.map {
+  width: 40rem;
+  height: 40rem;
+}
